@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       textStyle: const TextStyle(fontSize: 20),
                       backgroundColor: const Color.fromARGB(255, 156, 37, 156),
                     ),
-                    icon: const Icon(Icons.warning, size: 32),
+                    icon: const Icon(Icons.warning_amber, size: 32),
                     label: Text(sound['label']!),
                     onPressed: () => _playSound(sound['file']!),
                   ),
