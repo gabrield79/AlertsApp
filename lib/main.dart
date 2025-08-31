@@ -85,8 +85,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: ElevatedButton.icon(
                     style: ElevatedButton.styleFrom(
                       minimumSize: const Size(400, 80),
-                      textStyle: const TextStyle(fontSize: 20),
-                      backgroundColor: const Color.fromARGB(255, 156, 37, 156),
+                      textStyle: const TextStyle(fontSize: 30),
+                      backgroundColor: const Color.fromARGB(255, 78, 99, 192),
                     ),
                     icon: const Icon(Icons.audiotrack_rounded, size: 32),
                     label: Text(sound['label']!),
