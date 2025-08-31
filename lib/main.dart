@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Presiona un botón de tu genero favorito:',
+              'Presiona el botón de tu genero favorito:',
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
@@ -84,11 +84,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
                   child: ElevatedButton.icon(
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(250, 60),
+                      minimumSize: const Size(400, 80),
                       textStyle: const TextStyle(fontSize: 20),
                       backgroundColor: const Color.fromARGB(255, 156, 37, 156),
                     ),
-                    icon: const Icon(Icons.warning_amber, size: 32),
+                    icon: const Icon(Icons.audiotrack_rounded, size: 32),
                     label: Text(sound['label']!),
                     onPressed: () => _playSound(sound['file']!),
                   ),
